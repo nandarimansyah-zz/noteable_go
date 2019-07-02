@@ -1,1 +1,1 @@
-web: noteable_go.exe serve
+web: noteable_go serve
