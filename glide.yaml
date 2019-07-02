@@ -1,0 +1,9 @@
+package: github.com/nandarimansyah/noteable_go
+import:
+- package: github.com/gorilla/mux
+- package: github.com/sirupsen/logrus
+- package: github.com/spf13/cobra
+- package: github.com/urfave/negroni
+- package: gopkg.in/mgo.v2
+  subpackages:
+  - bson

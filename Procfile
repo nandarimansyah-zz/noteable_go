@@ -1,0 +1,1 @@
+web: noteable_go.exe serve

@@ -1,0 +1,29 @@
+hash: 69cfdb35620897ac4d08ef6449afb3899a414d4ed10210668f760d376eaefbe7
+updated: 2019-07-02T05:28:56.3430643+07:00
+imports:
+- name: github.com/gorilla/mux
+  version: d83b6ffe499a29cc05fc977988d0392851779620
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/konsorten/go-windows-terminal-sequences
+  version: f55edac94c9bbba5d6182a4be46d86a2c9b5b50e
+- name: github.com/sirupsen/logrus
+  version: 07a84ee7412e7a28663d92930a1d46f81b124ee1
+- name: github.com/spf13/cobra
+  version: f2b07da1e2c38d5f12845a4f607e2e1018cbb1f5
+- name: github.com/spf13/pflag
+  version: 24fa6976df40757dce6aea913e7b81ade90530e1
+- name: github.com/urfave/negroni
+  version: 7d1c5e0c31f98a3073127a273a4eb2f9690a715f
+- name: golang.org/x/sys
+  version: 04f50cda93cbb67f2afa353c52f342100e80e625
+  subpackages:
+  - unix
+- name: gopkg.in/mgo.v2
+  version: 9856a29383ce1c59f308dd1cf0363a79b5bef6b5
+  subpackages:
+  - bson
+  - internal/json
+  - internal/sasl
+  - internal/scram
+testImports: []
