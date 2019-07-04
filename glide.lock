@@ -1,6 +1,10 @@
-hash: 69cfdb35620897ac4d08ef6449afb3899a414d4ed10210668f760d376eaefbe7
-updated: 2019-07-02T05:28:56.3430643+07:00
+hash: 44155cc82339ff17cddf3911b5648fa9b90460553e675b0d9c93b169593bf236
+updated: 2019-07-04T15:37:37.0925947+07:00
 imports:
+- name: github.com/golang/mock
+  version: 140ae90f29eaaadc229f8d4b78f074b7f0611c1e
+  subpackages:
+  - gomock
 - name: github.com/gorilla/mux
   version: d83b6ffe499a29cc05fc977988d0392851779620
 - name: github.com/inconshreveable/mousetrap
@@ -13,6 +17,8 @@ imports:
   version: f2b07da1e2c38d5f12845a4f607e2e1018cbb1f5
 - name: github.com/spf13/pflag
   version: 24fa6976df40757dce6aea913e7b81ade90530e1
+- name: github.com/stretchr/testify
+  version: ffdc059bfe9ce6a4e144ba849dbedead332c6053
 - name: github.com/urfave/negroni
   version: 7d1c5e0c31f98a3073127a273a4eb2f9690a715f
 - name: golang.org/x/sys
