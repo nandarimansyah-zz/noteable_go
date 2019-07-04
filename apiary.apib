@@ -1,0 +1,52 @@
+FORMAT: 1A
+HOST: http://polls.apiblueprint.org/
+
+# CommentAPI
+
+CommentAPI is a simple API to store all comments made by the organisation.
+
+## Comment Collection [/orgs/{name}/comments]
+
+### List All Comments [GET]
+
++ Response 200 (application/json)
+
+        [
+            {
+                "id": "5d1b75054bc7e609a01b430d",
+                "org_name": "abccomp",
+                "comment": "Looking to hire SE Asia's top dev talent!"
+            }
+        ]
+
+### Create a New Comment [POST]
+
+You can create your comment using this action. It takes a JSON
+object containing a comment.
+
++ Request (application/json)
+
+        {
+            "comment" : "This is the comment you can insert"
+        }
+
++ Response 201 (application/json)
+
+    + Body
+
+             {
+                "id": "5d1b75054bc7e609a01b430d",
+                "org_name": "abccomp",
+                "comment": "Looking to hire SE Asia's top dev talent!"
+            }
+            
+
+### Delete Comments [DELETE]
+
+This action can soft delete all your available comments, please ensure you know what you are doing!
+
++ Response 201 (text)
+
+    + Body
+
+            Success to delete
